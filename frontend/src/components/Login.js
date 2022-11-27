@@ -6,6 +6,9 @@ import './Register';
  
 import { ThemeProvider, createTheme } from "@aws-amplify/ui-react";
 import { studioTheme } from './ui-components';
+import { 
+    LoginForm 
+  } from './ui-components';
 
 const updatedTheme = createTheme({
     // Extend the theme to update the button color
