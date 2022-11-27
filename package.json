@@ -4,6 +4,8 @@
     "webpack-cli": "^5.0.0"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^4.0.3",
+    "aws-amplify": "^5.0.4",
     "firebase": "^9.14.0",
     "react-scripts": "^5.0.1"
   },

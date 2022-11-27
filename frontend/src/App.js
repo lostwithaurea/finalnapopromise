@@ -29,10 +29,14 @@ import Model6 from "./components/models/model6";
 import Models6 from "./components/models6";
 import { Amplify, Auth } from 'aws-amplify';
 import awsconfig from './aws-exports';
+import { 
+  LoginForm 
+} from './ui-components';
 Amplify.configure(awsconfig);
 
 function App() {
   return (
+    
     <Router>
       <Routes>
         <Route path="/register" element={<Register/>}/>
