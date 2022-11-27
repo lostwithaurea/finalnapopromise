@@ -1,0 +1,14 @@
+type LOGIN @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  email: AWSEmail!
+  password: String!
+  REGISTER: REGISTER @hasOne
+}
+
+type REGISTER @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: AWSJSON!
+  email: AWSEmail!
+  password: String!
+  LOGIN: LOGIN @belongsTo
+}
