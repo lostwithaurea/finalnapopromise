@@ -16,5 +16,33 @@
         "finalnapopromise": {}
       }
     }
+  },
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-finalnapopromise-dev-140218-authRole",
+      "UnauthRoleArn": "arn:aws:iam::909179522441:role/amplify-finalnapopromise-dev-140218-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::909179522441:role/amplify-finalnapopromise-dev-140218-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-finalnapopromise-dev-140218-deployment",
+      "UnauthRoleName": "amplify-finalnapopromise-dev-140218-unauthRole",
+      "StackName": "amplify-finalnapopromise-dev-140218",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:909179522441:stack/amplify-finalnapopromise-dev-140218/59990c20-6ee2-11ed-89ca-0e3eb4acd7a7",
+      "AmplifyAppId": "d2gxzppztx7e5x"
+    },
+    "categories": {
+      "auth": {
+        "finalnapopromise": {}
+      },
+      "function": {
+        "UserHandler": {
+          "deploymentBucketName": "amplify-finalnapopromise-dev-140218-deployment",
+          "s3Key": "amplify-builds/UserHandler-69724d5a4b4770707078-build.zip"
+        }
+      },
+      "api": {
+        "finalnapopromise": {},
+        "apic3f5d923": {}
+      }
+    }
   }
 }
